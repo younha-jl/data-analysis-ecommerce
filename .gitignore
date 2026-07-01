@@ -1,0 +1,16 @@
+# Environnement virtuel (très lourd, reste en local)
+.venv/
+venv/
+ENV/
+
+# Données brutes (à ne pas push sur GitHub)
+data/
+retail_sales_dataset.csv
+
+# Fichiers temporaires de Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
